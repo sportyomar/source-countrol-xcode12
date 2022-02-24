@@ -14,6 +14,7 @@ struct ContentView: View {
             if isTextShowing {
                 Text("Hello, world!")
                     .padding()
+                    .font(.title)
             } else {
                 Text("")
                     .padding()
